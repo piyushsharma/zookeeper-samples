@@ -31,3 +31,5 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           FROM_BRANCH: "release/1.0.0"
           TO_BRANCH: "develop"
+          OWNER: "piyushsharma"
+          
