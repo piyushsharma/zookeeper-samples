@@ -29,5 +29,5 @@ jobs:
         uses: tretuna/sync-branches@1.2.0
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          FROM_BRANCH: "release/38.0.0"
+          FROM_BRANCH: "release/1.0.0"
           TO_BRANCH: "develop"
